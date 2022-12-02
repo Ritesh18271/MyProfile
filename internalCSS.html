@@ -1,49 +1,94 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Internal CSS</title>
 
-<head>
-    <title> Internal CSS </title>
-    
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Sofia&display=swap"
+      rel="stylesheet"
+    />
     <style>
-        h2{
-            color: rgb(16, 254, 71);
-            background-color: rgb(121, 123, 125);
-        }
-        .carrerObjectives{
-            color: rgb(78, 23, 172);
-            font-size: larger;
-            
+      body {
+        font-family: "Josefin Sans", sans-serif;
+      }
 
-        }
-        
+      h2 {
+        color: rgb(16, 254, 71);
+        background-color: rgb(121, 123, 125);
+        font-family: "Josefin Sans", sans-serif;
+        align-content: center;
+        text-align: center;
+        text-shadow: 4px 5px 4px black;
+      }
+      .carrerObjectives {
+        color: rgb(78, 23, 172);
+        font-size: larger;
+      }
+      #roles {
+        margin-bottom: 50px;
+        border: 2px solid cadetblue;
+      }
+      #para {
+        margin-top: 80px;
+        border: 2px solid cadetblue;
+        width: 200px;
+        height: 100px;
+        border-radius: 20px;
+      }
+      ul li {
+        list-style-type: decimal-leading-zero;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-    
-
-    <h2>  Career Objectives </h2>
-    <hr>
+  <body>
+    <h2>Career Objectives</h2>
+    <hr />
     <p class="carrerObjectives">
-        <strong> Seeking </strong> a  challenging and rewarding career 
-        in a reputed organization where my  technical skills 
-        would make   a positive contribution to the organization <br> and guide me in building a rewarding
-        career at the same time enhancing my knowledge of industry wide processes. 
+      <strong> Seeking </strong> a challenging and rewarding career in a reputed
+      organization where my technical skills would make a positive contribution
+      to the organization <br />
+      and guide me in building a rewarding career at the same time enhancing my
+      knowledge of industry wide processes.
     </p>
 
-    <hr>
-    <h2> Professional Summery </h2>
-          <ul>
-            <li> Having 1 years of experireance in Develeoping single page Web Application using <span style="color:rgb(60, 0, 255) ;"> Angular 8</span>, HTML5, CSS3, Bookstrap, JavaScript, TypeScript </li> <br>
-            <li> Experireance on working with version control system - GIT and GitHub </li> <br>
-            <li> Experireance working with JIRA for user stories and bug Tracking </li><br>
-            <li> Strong Debugging & Troubleshooting code experireance using Chrome Developer Tool </li> <br>
-            <li> Working Exposure on ID's like VS Code and Notepad++ </li><br>
-            <li> Good working experireance under Agile methodologies environment </li><br>
-            <li> Experireance in using Chrome Developer Tool for Debugging and Troubleshooting the code  </li><br>
-            <li> Knowledge of NodeJS </li><br>
-            <li> Ability to work with people at all levels in the program  </li>
-          </ul>
-</body>
+    <hr />
+    <h2>Professional Summery</h2>
+    <ul>
+      <li>
+        Having 1 years of experireance in Develeoping single page Web
+        Application using
+        <span style="color: rgb(60, 0, 255)"> Angular 8</span>, HTML5, CSS3,
+        Bookstrap, JavaScript, TypeScript
+      </li>
+      <br />
+      <li>
+        Experireance on working with version control system - GIT and GitHub
+      </li>
+      <br />
+      <li>Experireance working with JIRA for user stories and bug Tracking</li>
+      <br />
+      <li>
+        Strong Debugging & Troubleshooting code experireance using Chrome
+        Developer Tool
+      </li>
+      <br />
+      <li>Working Exposure on ID's like VS Code and Notepad++</li>
+      <br />
+      <li>Good working experireance under Agile methodologies environment</li>
+      <br />
+      <li>
+        Experireance in using Chrome Developer Tool for Debugging and
+        Troubleshooting the code
+      </li>
+      <br />
+      <li>Knowledge of NodeJS</li>
+      <br />
+      <li>Ability to work with people at all levels in the program</li>
+    </ul>
+    <h3 id="roles">Roles and Responsibilities</h3>
+    <p id="para">This is para</p>
+  </body>
 </html>

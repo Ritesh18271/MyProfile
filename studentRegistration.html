@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Registration Form</title>
+    <style>
+      body{
+        background-image: url(../MyProfile/art.jpg);
+        background-size: cover;
+      }
+      h2{
+        color: aqua;
+        background-color: black;
+      }
+      label{
+        color: rgb(206, 199, 6);
+      }
+      select [option]{
+        color: rgb(123, 0, 255);
+        border: 1px solid red;
+        border-radius: 10px;
+        width: 200px;
+        height: 22px;
+        text-transform: capitalize;
+      }
+      input[type="text"], input[type="number"], 
+      input[ type="password"],input[type="file"]{
+        color: rgb(123, 0, 255);
+        border: 1px solid red;
+        border-radius: 10px;
+        width: 200px;
+        height: 22px;
+        text-transform: capitalize;
+      }
+      input[type="email"]{
+        color: rgb(123, 0, 255);
+        border: 1px solid red;
+        border-radius: 10px;
+        width: 200px;
+        height: 22px;
+      }
+      button:hover{
+        color: rgb(255, 0, 0);
+        background-color: aquamarine;
+        border-radius: 20px;
+      }
+      button[type="submit"],button[type="reset"]{
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Student Registration Form</h2>
+    <form>
+    <table>
+      <tbody>
+        <tr>
+          <td><label> Full name : </label></td>
+          <td><input type="text" required autofocus maxlength="40" /></td>
+        </tr>
+        <tr>
+          <td><label> Email Address : </label></td>
+          <td><input type="email" required placeholder="abc@gmail.com" /></td>
+        </tr>
+        <tr>
+          <td><label> Password : </label></td>
+          <td><input type="password" required /></td>
+        </tr>
+        <tr>
+          <td><label> Contact Number :</label></td>
+          <td><input type="number" required /></td>
+        </tr>
+        <tr>
+          <td><label> Profile Photo :</label></td>
+          <td><input type="file" /></td>
+        </tr>
+        <tr>
+          <td><label> Date Of Birth :</label></td>
+          <td><input type="date" required /></td>
+        </tr>
+        <tr>
+          <td><label> Gender :</label></td>
+          <td>
+            <input type="radio" name="Gender"/><label> Male </label>
+            <input type="radio" name="Gender"/><label> Female </label>
+          </td>
+        </tr>
+        <tr>
+        <td> <label> Status : </label></td>
+          <td>
+            <input type="radio" name="Status"/><label> Yes </label>
+            <input type="radio" name="Status"/><label> No </label>
+          </td>
+        </tr>
+        <tr>
+        <td> <label>  Known Tools & Technology :</label></td>
+          <td>
+            <input type="checkbox" /><label> Angular </label>
+            <input type="checkbox" /><label> React </label>
+            <input type="checkbox" /><label> Python </label>
+            <input type="checkbox" /><label> Java </label>
+            <input type="checkbox" /><label> Jenkin </label>
+            <input type="checkbox" /><label> GIT </label>
+            <input type="checkbox" /><label> Database </label>
+          </td>
+        </tr>
+        <tr>
+          <td><label> Profile :</label></td>
+          <td>
+            <select>
+                <option> UI Developer </option>
+                <option> Backend Developer </option>
+                <option> Full Stack Developer </option>
+                <option> DevOps Engineer </option>
+                <option> Tester</option>
+            </select>
+        </td>
+        </tr>
+        <tr>
+          <td><label> Country :</label></td>
+          <td><input type="text" value="India" readonly /></td>
+        </tr>
+        <tr>
+          <td><label> Present Address</label></td>
+          <td><textarea rows="7" cols="40"> </textarea></td>
+        </tr>
+        <tr>
+          <td><button type="submit">submit</button></td>
+          <td><button type="reset">Clear</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+  </body>
+</html>
+

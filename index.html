@@ -1,43 +1,84 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Links and Icons</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
-  <body>
-    <header>
-      <i class="fa fa-user" aria-hidden="true"> Ritesh Kamble </i
-      >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <i class="fa fa-phone-square" aria-hidden="true"> 7798 8025 04 </i
-      >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <i class="fa fa-envelope" aria-hidden="true"> riteshkamble240@gmail.com</i
-      >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    </header>
-    <br />
-
-    <nav>
-      <a href="home.html" target="Myframe">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="techStack.html" target="Myframe"> TECHNOLOGY STACK</a>&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="education.html" target="Myframe"> EDUCATION</a>&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="project.html" target="Myframe">PROJECT</a>&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="hobbiesAndAchievements.html" target="Myframe">HOBBIES</a>&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="personal.html" target="Myframe"> PERSONAL</a>&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="contactUs.html" target="Myframe">CONTACT US</a>&nbsp;&nbsp;&nbsp;&nbsp;
-    </nav>
-    <br />
-    <iframe width="900px" height="500px" name="Myframe" src="home.html"> </iframe>
-    <br />
-    <br />
-    <footer>
-      <b>Follow me</b> &nbsp;&nbsp;&nbsp;
-      <i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-      <i class="fa fa-google" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-      <i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-      <i class="fa fa-facebook-square" aria-hidden="true"></i
-      >&nbsp;&nbsp;&nbsp;&nbsp;
-    </footer>
-  </body>
+    <head>
+        <title> Links and Icons </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Sofia&display=swap" rel="stylesheet">
+        <style>
+         
+          header{
+            color: #160beb;
+            font-size: larger; 
+            text-shadow: 4px 6px 4px rgb(0, 0, 0); 
+            border-radius: 50%;
+            padding: 5px;
+          }
+         body{
+            background-color: rgb(235, 233, 199);
+            
+           }
+          .Icons{
+                 margin: 20px;
+            
+          }
+          .nav, nav span a{
+            margin-right: 10px;
+            color: rgb(245, 247, 249);
+            text-shadow:4px 5px 4px rgb(7, 1, 14);
+            background-color: rgb(231, 147, 20);
+            cursor: pointer;
+            
+          }
+          #follow,#linkdin,#google,#insta,#fb{
+                   margin-right: 20px;
+                   text-shadow: 4px 5px 4px rgb(187, 26, 131);
+                  
+          }
+          
+        </style>
+    </head>
+    <body>
+        
+            <header>
+              <span class="Icons">
+                <i class="fa fa-user" aria-hidden="true"> Ritesh Kamble </i
+                  ></span>
+                  <span class="Icons">
+                  <i class="fa fa-phone-square" aria-hidden="true"> 7798 8025 04 </i
+                  ></span>
+                  <span class="Icons">
+                  <i class="fa fa-envelope" aria-hidden="true"> riteshkamble240@gmail.com</i
+                  ></span>
+              
+              
+            </header>
+            <br />
+        
+            <nav>
+             <span><a href="home.html" target="Myframe">HOME</a></span>
+             <span><a href="techStack.html" target="Myframe"> TECHNOLOGY STACK</a></span>
+             <span><a href="education.html" target="Myframe"> EDUCATION</a></span>
+             <span><a href="project.html" target="Myframe">PROJECT</a></span>
+             <span><a href="hobbiesAndAchievements.html" target="Myframe">HOBBIES</a></span>
+             <span><a href="personal.html" target="Myframe"> PERSONAL</a></span>
+             <span><a href="contactUs.html" target="Myframe">CONTACT US</a></span>
+             <span><a href="internalCSS.html" target="Myframe"> INTERNAL CSS</a></span>
+            </nav>
+            <br />
+           <span id="frame"> <iframe width="900px" height="450px" name="Myframe" src="home.html"> </iframe></span>
+            <br />
+        </header>
+        <footer>
+        <h3>
+           <span id="follow"><b>Follow me</b></span>
+           
+           <span id="linkdin"> <i class="fa fa-linkedin" aria-hidden="true"></i></span>
+            <span id="google"> <i class="fa fa-google" aria-hidden="true"></i></span>
+           <span id="insta"><i class="fa fa-instagram" aria-hidden="true"></i></span>
+           <span id="fb"><i class="fa fa-facebook-square" aria-hidden="true"></i></span>
+          </h3>
+        </footer>
+    </body>
 </html>
